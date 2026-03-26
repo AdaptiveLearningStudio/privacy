@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedborgarAppen — Integritetspolicy / Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #fafafa; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+    h1 { font-size: 28px; font-weight: 700; color: #0D1F4E; margin-bottom: 8px; }
+    .subtitle { font-size: 14px; color: #888; margin-bottom: 40px; }
+    h2 { font-size: 20px; font-weight: 600; color: #1E3A5F; margin: 32px 0 12px; }
+    p, li { font-size: 15px; margin-bottom: 12px; }
+    ul { padding-left: 24px; margin-bottom: 16px; }
+    li { margin-bottom: 6px; }
+    a { color: #1E3A5F; }
+    .lang-toggle { display: flex; gap: 8px; margin-bottom: 32px; }
+    .lang-toggle button { padding: 8px 20px; border: 2px solid #0D1F4E; border-radius: 8px; background: white; color: #0D1F4E; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .lang-toggle button.active { background: #0D1F4E; color: white; }
+    .lang-toggle button:hover { opacity: 0.8; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #ddd; font-size: 13px; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MedborgarAppen</h1>
+
+    <div class="lang-toggle">
+      <button class="active" onclick="switchLang('sv')">Svenska</button>
+      <button onclick="switchLang('en')">English</button>
+      <button onclick="switchLang('ar')">العربية</button>
+    </div>
+
+    <!-- SWEDISH -->
+    <div id="sv" class="section active">
+      <p class="subtitle">Senast uppdaterad: 25 mars 2026</p>
+
+      <h2>1. Vem vi är</h2>
+      <p>MedborgarAppen utvecklas av Adaptive Learning Studio, Stockholm, Sverige. Appen hjälper dig att förbereda dig för det svenska medborgarskapsprovet.</p>
+      <p>Kontakt: <a href="mailto:adaptivelearningst@gmail.com">adaptivelearningst@gmail.com</a></p>
+
+      <h2>2. Vilka uppgifter vi samlar in</h2>
+      <p>Vi samlar in så lite data som möjligt. Här är vad som lagras:</p>
+      <ul>
+        <li><strong>Lokalt på din enhet:</strong> Ditt namn (om du anger det), valt språk, quizresultat, repetitionsdata och inställningar. Dessa uppgifter lämnar aldrig din telefon om du inte skapar ett konto.</li>
+        <li><strong>Om du skapar ett konto:</strong> E-postadress och lösenord (krypterat). Din studieframsteg synkas till en säker server inom EU (Supabase, Frankfurt) så att du kan använda appen på flera enheter.</li>
+        <li><strong>Uppläsning (TTS):</strong> När du använder uppläsningsfunktionen skickas texten till Google Cloud Text-to-Speech för att generera ljud. Google lagrar inte den texten. Se <a href="https://cloud.google.com/text-to-speech/docs/data-logging">Googles datapolicy för TTS</a>.</li>
+      </ul>
+
+      <h2>3. Vad vi INTE gör</h2>
+      <ul>
+        <li>Vi säljer aldrig dina uppgifter.</li>
+        <li>Vi visar inga annonser.</li>
+        <li>Vi använder inga spårningsverktyg (ingen analytics, inga cookies).</li>
+        <li>Vi delar inte dina uppgifter med tredje part, förutom de tjänster som listas ovan.</li>
+      </ul>
+
+      <h2>4. Tredjepartstjänster</h2>
+      <ul>
+        <li><strong>Google Cloud Text-to-Speech</strong> — för uppläsning av frågor och termer. <a href="https://cloud.google.com/terms/service-terms">Googles tjänstevillkor</a>.</li>
+        <li><strong>Supabase</strong> (om du skapar konto) — för inloggning och datasynk. Servrar i EU (Frankfurt). <a href="https://supabase.com/privacy">Supabase integritetspolicy</a>.</li>
+        <li><strong>RevenueCat</strong> (om du gör ett köp) — för betalningshantering via App Store/Google Play. <a href="https://www.revenuecat.com/privacy">RevenueCat integritetspolicy</a>.</li>
+      </ul>
+
+      <h2>5. Dina rättigheter (GDPR)</h2>
+      <p>Eftersom vi är baserade i Sverige och EU gäller GDPR. Du har rätt att:</p>
+      <ul>
+        <li><strong>Se dina uppgifter</strong> — kontakta oss så skickar vi allt vi har.</li>
+        <li><strong>Radera dina uppgifter</strong> — kontakta oss eller radera ditt konto i appen under Inställningar. All data raderas permanent.</li>
+        <li><strong>Exportera dina uppgifter</strong> — kontakta oss för en kopia av dina data.</li>
+        <li><strong>Återkalla samtycke</strong> — du kan sluta använda appen när som helst och radera ditt konto.</li>
+      </ul>
+
+      <h2>6. Barn</h2>
+      <p>Appen är avsedd för vuxna som förbereder sig för medborgarskapsprovet. Vi samlar inte medvetet in data från barn under 16 år.</p>
+
+      <h2>7. Datasäkerhet</h2>
+      <p>All kommunikation sker via HTTPS. Lösenord lagras krypterade (Supabase hanterar detta med bcrypt). Dina lokala data lagras i appens säkra lagring på din enhet.</p>
+
+      <h2>8. Ändringar</h2>
+      <p>Om vi ändrar denna policy meddelar vi dig i appen. Datumet ovan visar senaste uppdateringen.</p>
+
+      <div class="footer">
+        <p>MedborgarAppen &copy; 2026 Adaptive Learning Studio &bull; Stockholm, Sverige</p>
+        <p><a href="mailto:adaptivelearningst@gmail.com">adaptivelearningst@gmail.com</a></p>
+      </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div id="en" class="section">
+      <p class="subtitle">Last updated: March 25, 2026</p>
+
+      <h2>1. Who we are</h2>
+      <p>MedborgarAppen is developed by Adaptive Learning Studio, Stockholm, Sweden. The app helps you prepare for the Swedish citizenship test.</p>
+      <p>Contact: <a href="mailto:adaptivelearningst@gmail.com">adaptivelearningst@gmail.com</a></p>
+
+      <h2>2. What data we collect</h2>
+      <p>We collect as little data as possible:</p>
+      <ul>
+        <li><strong>Stored locally on your device:</strong> Your name (if you enter one), chosen language, quiz results, review data, and settings. This data never leaves your phone unless you create an account.</li>
+        <li><strong>If you create an account:</strong> Email address and password (encrypted). Your study progress syncs to a secure EU server (Supabase, Frankfurt) so you can use the app on multiple devices.</li>
+        <li><strong>Text-to-speech (TTS):</strong> When you use the read-aloud feature, the text is sent to Google Cloud Text-to-Speech to generate audio. Google does not store that text. See <a href="https://cloud.google.com/text-to-speech/docs/data-logging">Google's TTS data policy</a>.</li>
+      </ul>
+
+      <h2>3. What we do NOT do</h2>
+      <ul>
+        <li>We never sell your data.</li>
+        <li>We show no advertisements.</li>
+        <li>We use no tracking tools (no analytics, no cookies).</li>
+        <li>We do not share your data with third parties, except for the services listed above.</li>
+      </ul>
+
+      <h2>4. Third-party services</h2>
+      <ul>
+        <li><strong>Google Cloud Text-to-Speech</strong> — for reading questions and terms aloud. <a href="https://cloud.google.com/terms/service-terms">Google's terms</a>.</li>
+        <li><strong>Supabase</strong> (if you create an account) — for authentication and data sync. EU servers (Frankfurt). <a href="https://supabase.com/privacy">Supabase privacy policy</a>.</li>
+        <li><strong>RevenueCat</strong> (if you make a purchase) — for payment processing via App Store/Google Play. <a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>.</li>
+      </ul>
+
+      <h2>5. Your rights (GDPR)</h2>
+      <p>Since we are based in Sweden and the EU, GDPR applies. You have the right to:</p>
+      <ul>
+        <li><strong>Access your data</strong> — contact us and we will send you everything we have.</li>
+        <li><strong>Delete your data</strong> — contact us or delete your account in the app under Settings. All data is permanently removed.</li>
+        <li><strong>Export your data</strong> — contact us for a copy of your data.</li>
+        <li><strong>Withdraw consent</strong> — you can stop using the app at any time and delete your account.</li>
+      </ul>
+
+      <h2>6. Children</h2>
+      <p>The app is intended for adults preparing for the citizenship test. We do not knowingly collect data from children under 16.</p>
+
+      <h2>7. Data security</h2>
+      <p>All communication uses HTTPS. Passwords are stored encrypted (Supabase handles this with bcrypt). Your local data is stored in your device's secure app storage.</p>
+
+      <h2>8. Changes</h2>
+      <p>If we change this policy, we will notify you in the app. The date above shows the most recent update.</p>
+
+      <div class="footer">
+        <p>MedborgarAppen &copy; 2026 Adaptive Learning Studio &bull; Stockholm, Sweden</p>
+        <p><a href="mailto:adaptivelearningst@gmail.com">adaptivelearningst@gmail.com</a></p>
+      </div>
+    </div>
+
+    <!-- ARABIC -->
+    <div id="ar" class="section" dir="rtl" style="text-align:right;">
+      <p class="subtitle">آخر تحديث: 25 مارس 2026</p>
+
+      <h2>1. من نحن</h2>
+      <p>تطبيق MedborgarAppen تم تطويره بواسطة Adaptive Learning Studio، ستوكهولم، السويد. يساعدك التطبيق على الاستعداد لاختبار الجنسية السويدية.</p>
+      <p>للتواصل: <a href="mailto:adaptivelearningst@gmail.com">adaptivelearningst@gmail.com</a></p>
+
+      <h2>2. ما البيانات التي نجمعها</h2>
+      <p>نجمع أقل قدر ممكن من البيانات:</p>
+      <ul>
+        <li><strong>مُخزنة محلياً على جهازك:</strong> اسمك (إذا أدخلته)، اللغة المختارة، نتائج الاختبارات، بيانات المراجعة والإعدادات. هذه البيانات لا تغادر هاتفك أبداً إلا إذا أنشأت حساباً.</li>
+        <li><strong>إذا أنشأت حساباً:</strong> عنوان البريد الإلكتروني وكلمة المرور (مشفرة). يتم مزامنة تقدمك الدراسي مع خادم آمن في الاتحاد الأوروبي (Supabase، فرانكفورت).</li>
+        <li><strong>تحويل النص إلى كلام (TTS):</strong> عند استخدام ميزة القراءة بصوت عالٍ، يتم إرسال النص إلى Google Cloud Text-to-Speech لإنشاء الصوت. لا تقوم Google بتخزين هذا النص.</li>
+      </ul>
+
+      <h2>3. ما لا نفعله</h2>
+      <ul>
+        <li>لا نبيع بياناتك أبداً.</li>
+        <li>لا نعرض إعلانات.</li>
+        <li>لا نستخدم أدوات تتبع (لا تحليلات، لا ملفات تعريف ارتباط).</li>
+        <li>لا نشارك بياناتك مع أطراف ثالثة باستثناء الخدمات المذكورة أعلاه.</li>
+      </ul>
+
+      <h2>4. خدمات الطرف الثالث</h2>
+      <ul>
+        <li><strong>Google Cloud Text-to-Speech</strong> — لقراءة الأسئلة والمصطلحات بصوت عالٍ.</li>
+        <li><strong>Supabase</strong> (إذا أنشأت حساباً) — للمصادقة ومزامنة البيانات. خوادم في الاتحاد الأوروبي.</li>
+        <li><strong>RevenueCat</strong> (إذا قمت بعملية شراء) — لمعالجة المدفوعات عبر App Store/Google Play.</li>
+      </ul>
+
+      <h2>5. حقوقك (GDPR)</h2>
+      <p>نظراً لأننا مقيمون في السويد والاتحاد الأوروبي، ينطبق قانون GDPR. لديك الحق في:</p>
+      <ul>
+        <li><strong>الوصول إلى بياناتك</strong> — تواصل معنا وسنرسل لك كل ما لدينا.</li>
+        <li><strong>حذف بياناتك</strong> — تواصل معنا أو احذف حسابك في التطبيق من الإعدادات.</li>
+        <li><strong>تصدير بياناتك</strong> — تواصل معنا للحصول على نسخة.</li>
+        <li><strong>سحب الموافقة</strong> — يمكنك التوقف عن استخدام التطبيق في أي وقت وحذف حسابك.</li>
+      </ul>
+
+      <h2>6. الأطفال</h2>
+      <p>التطبيق مخصص للبالغين الذين يستعدون لاختبار الجنسية. لا نجمع بيانات من الأطفال دون 16 عاماً عن علم.</p>
+
+      <h2>7. أمان البيانات</h2>
+      <p>جميع الاتصالات تتم عبر HTTPS. يتم تخزين كلمات المرور مشفرة. يتم تخزين بياناتك المحلية في مساحة التخزين الآمنة لجهازك.</p>
+
+      <h2>8. التغييرات</h2>
+      <p>إذا غيّرنا هذه السياسة، سنُبلغك في التطبيق. التاريخ أعلاه يُظهر آخر تحديث.</p>
+
+      <div class="footer">
+        <p>MedborgarAppen &copy; 2026 Adaptive Learning Studio &bull; ستوكهولم، السويد</p>
+        <p><a href="mailto:adaptivelearningst@gmail.com">adaptivelearningst@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
